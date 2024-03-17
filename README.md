@@ -50,23 +50,28 @@ The steps performed are as follows:
 2. Define attributes : `id`, `name`, `email`, `email`
 <br>
 ### Implementing Authentication
+
 1. Create an authentication module with JWT token generation and validation.
 2. Implementing the JWT strategy using Passport.js.
 <br>
 ### Implementing REST Endpoints
+
 1. Defining a POST endpoint to add a user (`/api/v1/add-user`).
 2. Defining a GET endpoint to get a user by ID (`/api/v1/get-user/:id`).
 3. Implementing corresponding controller method to handle requests and interact with  database.
 <br>
 ### Test the Application
+
 1. Performing unit tests for services, controllers, and authentication logic.
 2. Using curl; testing REST API endpoints.
 <br><br>
 ### Runing Application
+
 1. Starting Nest.js server:
    
    ```npm run start:dev```   
 <br>
 ### Future Development steps
+
 1. Deploy the application to a production server.
 2. Monitor and maintain the application ensuring its reliability and performance.
